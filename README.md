@@ -10,8 +10,7 @@ This Python-based keylogger captures keystrokes and sends logs via email at spec
 
 ## Installation
 1. **Clone the Repository:** `git clone https://github.com/yourusername/keylogger.git`
-2. **Install Dependencies:** `pip install -r requirements.txt`
-3. **Configuration:** Open `keylogger.py` and input your email address and password.
+2. **Configuration:** Open `keylogger.py` and input your email address and password.
 
 ## Usage
 1. **Running the Keylogger:** Execute `python keylogger.py` to start the keylogger.
