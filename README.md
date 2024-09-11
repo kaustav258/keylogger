@@ -7,9 +7,10 @@ This Python-based keylogger captures keystrokes and sends logs via email at spec
 - **Keylogging:** Captures keystrokes and compiles them into a log.
 - **Email Reporting:** Sends logged data via email at set intervals.
 - **Customizable Interval:** Set the time interval for log emailing.
+- **screenshot:** have the feature to take screenshot in a minimum time interval.
 
 ## Installation
-1. **Clone the Repository:** `git clone https://github.com/yourusername/keylogger.git`
+1. **Clone the Repository:** `git clone https://github.com/kaustav258/keylogger`
 2. **Configuration:** Open `keylogger.py` and input your email address and password.
 
 ## Usage
